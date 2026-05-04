@@ -1,0 +1,26 @@
+/* style.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f1f1f2;
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    color: #333;
+    text-align: center;
+}
+/* Centralizar conteúdo e definir largura máxima */
+.container {
+    max-width: 1200px;
+    margin: 0 auto; /* Centraliza na página */
+    padding: 20px;
+}
+
+/* Alinhar itens horizontalmente (ex: logo e menu) */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    padding: 10px 20px;
+}
